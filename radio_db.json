@@ -12,7 +12,7 @@
     {"id":"gd-comedy","name":"相声小品","station":"Time Radio","category":"test","language":"zh-CN","region":"CN","url":"https://raw.githubusercontent.com/78/xiaozhi-esp32/main/main/assets/common/popup.ogg","description":"Playable OGG test program"},
     {"id":"rthk-drama","name":"广播剧","station":"Time Radio","category":"test","language":"zh-CN","region":"CN","url":"https://raw.githubusercontent.com/78/xiaozhi-esp32/main/main/assets/common/popup.ogg","description":"Playable OGG test program"},
     {"id":"macau-novel","name":"有声小说","station":"Time Radio","category":"test","language":"zh-CN","region":"CN","url":"https://raw.githubusercontent.com/78/xiaozhi-esp32/main/main/assets/common/popup.ogg","description":"Playable OGG test program"},
-    {"id":"taipei-classic","name":"经典老歌","station":"Time Radio","category":"test","language":"zh-CN","region":"CN","url":"https://raw.githubusercontent.com/78/xiaozhi-esp32/main/main/assets/common/popup.ogg","description":"Playable OGG test program"}
+    {"id":"taipei-classic","name":"经典老歌","station":"Time Radio","category":"test","language":"zh-CN","region":"CN","url":"https://raw.githubusercontent.com/adamwing18-sketch/Time-Radio-Audio/main/ogg/demo/terry-first-broadcast.ogg","description":"Playable OGG test program"}
   ],
   "schedules": [
     {"date":"2030-01-01","program_id":"cnr-news","title_optional":"新闻联播","notes_optional":"Playable test"},
