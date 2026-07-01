@@ -5,23 +5,23 @@
     "description": "Time Radio test catalog"
   },
   "programs": [
-    {
-      "id": "bird-test",
-      "name": "Bird Test",
-      "station": "Time Radio",
-      "category": "test",
-      "language": "zh-CN",
-      "region": "CN",
-      "url": "https://raw.githubusercontent.com/78/xiaozhi-esp32/main/main/assets/common/popup.ogg",
-      "description": "Playable OGG test program"
-    }
+    {"id":"cnr-news","name":"新闻联播","station":"Time Radio","category":"test","language":"zh-CN","region":"CN","url":"https://raw.githubusercontent.com/78/xiaozhi-esp32/main/main/assets/common/popup.ogg","description":"Playable OGG test program"},
+    {"id":"cri-music","name":"音乐之声","station":"Time Radio","category":"test","language":"zh-CN","region":"CN","url":"https://raw.githubusercontent.com/78/xiaozhi-esp32/main/main/assets/common/popup.ogg","description":"Playable OGG test program"},
+    {"id":"bj-opera","name":"戏曲欣赏","station":"Time Radio","category":"test","language":"zh-CN","region":"CN","url":"https://raw.githubusercontent.com/78/xiaozhi-esp32/main/main/assets/common/popup.ogg","description":"Playable OGG test program"},
+    {"id":"sh-story","name":"评书连播","station":"Time Radio","category":"test","language":"zh-CN","region":"CN","url":"https://raw.githubusercontent.com/78/xiaozhi-esp32/main/main/assets/common/popup.ogg","description":"Playable OGG test program"},
+    {"id":"gd-comedy","name":"相声小品","station":"Time Radio","category":"test","language":"zh-CN","region":"CN","url":"https://raw.githubusercontent.com/78/xiaozhi-esp32/main/main/assets/common/popup.ogg","description":"Playable OGG test program"},
+    {"id":"rthk-drama","name":"广播剧","station":"Time Radio","category":"test","language":"zh-CN","region":"CN","url":"https://raw.githubusercontent.com/78/xiaozhi-esp32/main/main/assets/common/popup.ogg","description":"Playable OGG test program"},
+    {"id":"macau-novel","name":"有声小说","station":"Time Radio","category":"test","language":"zh-CN","region":"CN","url":"https://raw.githubusercontent.com/78/xiaozhi-esp32/main/main/assets/common/popup.ogg","description":"Playable OGG test program"},
+    {"id":"taipei-classic","name":"经典老歌","station":"Time Radio","category":"test","language":"zh-CN","region":"CN","url":"https://raw.githubusercontent.com/78/xiaozhi-esp32/main/main/assets/common/popup.ogg","description":"Playable OGG test program"}
   ],
   "schedules": [
-    {
-      "date": "2030-01-01",
-      "program_id": "bird-test",
-      "title_optional": "Bird Test",
-      "notes_optional": "Downloads popup.ogg and should play bird sound"
-    }
+    {"date":"2030-01-01","program_id":"cnr-news","title_optional":"新闻联播","notes_optional":"Playable test"},
+    {"date":"2030-01-01","program_id":"cri-music","title_optional":"音乐之声","notes_optional":"Playable test"},
+    {"date":"2030-01-01","program_id":"bj-opera","title_optional":"戏曲欣赏","notes_optional":"Playable test"},
+    {"date":"2030-01-01","program_id":"sh-story","title_optional":"评书连播","notes_optional":"Playable test"},
+    {"date":"2030-01-01","program_id":"gd-comedy","title_optional":"相声小品","notes_optional":"Playable test"},
+    {"date":"2030-01-01","program_id":"rthk-drama","title_optional":"广播剧","notes_optional":"Playable test"},
+    {"date":"2030-01-01","program_id":"macau-novel","title_optional":"有声小说","notes_optional":"Playable test"},
+    {"date":"2030-01-01","program_id":"taipei-classic","title_optional":"经典老歌","notes_optional":"Playable test"}
   ]
 }
