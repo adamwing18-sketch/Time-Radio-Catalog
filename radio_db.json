@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "format": "time-radio-db",
+    "version": 1,
+    "description": "Time Radio test catalog"
+  },
+  "programs": [
+    {
+      "id": "bird-test",
+      "name": "Bird Test",
+      "station": "Time Radio",
+      "category": "test",
+      "language": "zh-CN",
+      "region": "CN",
+      "url": "https://raw.githubusercontent.com/78/xiaozhi-esp32/main/main/assets/common/popup.ogg",
+      "description": "Playable OGG test program"
+    }
+  ],
+  "schedules": [
+    {
+      "date": "2030-01-01",
+      "program_id": "bird-test",
+      "title_optional": "Bird Test",
+      "notes_optional": "Downloads popup.ogg and should play bird sound"
+    }
+  ]
+}
