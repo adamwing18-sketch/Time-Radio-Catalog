@@ -5,23 +5,193 @@
     "description": "Time Radio test catalog"
   },
   "programs": [
-    {"id":"cnr-news","name":"新闻联播","station":"Time Radio","category":"test","language":"zh-CN","region":"CN","url":"https://raw.githubusercontent.com/78/xiaozhi-esp32/main/main/assets/common/popup.ogg","description":"Playable OGG test program"},
-    {"id":"cri-music","name":"音乐之声","station":"Time Radio","category":"test","language":"zh-CN","region":"CN","url":"https://raw.githubusercontent.com/78/xiaozhi-esp32/main/main/assets/common/popup.ogg","description":"Playable OGG test program"},
-    {"id":"bj-opera","name":"戏曲欣赏","station":"Time Radio","category":"test","language":"zh-CN","region":"CN","url":"https://raw.githubusercontent.com/78/xiaozhi-esp32/main/main/assets/common/popup.ogg","description":"Playable OGG test program"},
-    {"id":"sh-story","name":"评书连播","station":"Time Radio","category":"test","language":"zh-CN","region":"CN","url":"https://raw.githubusercontent.com/78/xiaozhi-esp32/main/main/assets/common/popup.ogg","description":"Playable OGG test program"},
-    {"id":"gd-comedy","name":"相声小品","station":"Time Radio","category":"test","language":"zh-CN","region":"CN","url":"https://raw.githubusercontent.com/78/xiaozhi-esp32/main/main/assets/common/popup.ogg","description":"Playable OGG test program"},
-    {"id":"rthk-drama","name":"广播剧","station":"Time Radio","category":"test","language":"zh-CN","region":"CN","url":"https://raw.githubusercontent.com/78/xiaozhi-esp32/main/main/assets/common/popup.ogg","description":"Playable OGG test program"},
-    {"id":"macau-novel","name":"有声小说","station":"Time Radio","category":"test","language":"zh-CN","region":"CN","url":"https://raw.githubusercontent.com/78/xiaozhi-esp32/main/main/assets/common/popup.ogg","description":"Playable OGG test program"},
-    {"id":"taipei-classic","name":"经典老歌","station":"Time Radio","category":"test","language":"zh-CN","region":"CN","url":"https://raw.githubusercontent.com/adamwing18-sketch/Time-Radio-Audio/main/ogg/demo/terry-first-broadcast.ogg","description":"Playable OGG test program"}
+    {
+      "id": "cnr-news",
+      "name": "新闻联播",
+      "station": "Time Radio",
+      "category": "test",
+      "language": "zh-CN",
+      "region": "CN",
+      "url": "https://raw.githubusercontent.com/78/xiaozhi-esp32/main/main/assets/common/popup.ogg",
+      "description": "Playable OGG test program"
+    },
+    {
+      "id": "cri-music",
+      "name": "音乐之声",
+      "station": "Time Radio",
+      "category": "test",
+      "language": "zh-CN",
+      "region": "CN",
+      "url": "https://raw.githubusercontent.com/78/xiaozhi-esp32/main/main/assets/common/popup.ogg",
+      "description": "Playable OGG test program"
+    },
+    {
+      "id": "bj-opera",
+      "name": "戏曲欣赏",
+      "station": "Time Radio",
+      "category": "test",
+      "language": "zh-CN",
+      "region": "CN",
+      "url": "https://raw.githubusercontent.com/78/xiaozhi-esp32/main/main/assets/common/popup.ogg",
+      "description": "Playable OGG test program"
+    },
+    {
+      "id": "sh-story",
+      "name": "评书连播",
+      "station": "Time Radio",
+      "category": "test",
+      "language": "zh-CN",
+      "region": "CN",
+      "url": "https://raw.githubusercontent.com/78/xiaozhi-esp32/main/main/assets/common/popup.ogg",
+      "description": "Playable OGG test program"
+    },
+    {
+      "id": "gd-comedy",
+      "name": "相声小品",
+      "station": "Time Radio",
+      "category": "test",
+      "language": "zh-CN",
+      "region": "CN",
+      "url": "https://raw.githubusercontent.com/78/xiaozhi-esp32/main/main/assets/common/popup.ogg",
+      "description": "Playable OGG test program"
+    },
+    {
+      "id": "rthk-drama",
+      "name": "广播剧",
+      "station": "Time Radio",
+      "category": "test",
+      "language": "zh-CN",
+      "region": "CN",
+      "url": "https://raw.githubusercontent.com/78/xiaozhi-esp32/main/main/assets/common/popup.ogg",
+      "description": "Playable OGG test program"
+    },
+    {
+      "id": "macau-novel",
+      "name": "有声小说",
+      "station": "Time Radio",
+      "category": "test",
+      "language": "zh-CN",
+      "region": "CN",
+      "url": "https://raw.githubusercontent.com/78/xiaozhi-esp32/main/main/assets/common/popup.ogg",
+      "description": "Playable OGG test program"
+    },
+    {
+      "id": "taipei-classic",
+      "name": "经典老歌",
+      "station": "Time Radio",
+      "category": "test",
+      "language": "zh-CN",
+      "region": "CN",
+      "url": "https://raw.githubusercontent.com/adamwing18-sketch/Time-Radio-Audio/main/ogg/2026-07-03/daily.ogg",
+      "description": "Playable OGG test program"
+    }
   ],
   "schedules": [
-    {"date":"2030-01-01","program_id":"cnr-news","title_optional":"新闻联播","notes_optional":"Playable test"},
-    {"date":"2030-01-01","program_id":"cri-music","title_optional":"音乐之声","notes_optional":"Playable test"},
-    {"date":"2030-01-01","program_id":"bj-opera","title_optional":"戏曲欣赏","notes_optional":"Playable test"},
-    {"date":"2030-01-01","program_id":"sh-story","title_optional":"评书连播","notes_optional":"Playable test"},
-    {"date":"2030-01-01","program_id":"gd-comedy","title_optional":"相声小品","notes_optional":"Playable test"},
-    {"date":"2030-01-01","program_id":"rthk-drama","title_optional":"广播剧","notes_optional":"Playable test"},
-    {"date":"2030-01-01","program_id":"macau-novel","title_optional":"有声小说","notes_optional":"Playable test"},
-    {"date":"2030-01-01","program_id":"taipei-classic","title_optional":"经典老歌","notes_optional":"Playable test"}
+    {
+      "date": "2030-01-01",
+      "program_id": "cnr-news",
+      "title_optional": "新闻联播",
+      "notes_optional": "Playable test"
+    },
+    {
+      "date": "2030-01-01",
+      "program_id": "cri-music",
+      "title_optional": "音乐之声",
+      "notes_optional": "Playable test"
+    },
+    {
+      "date": "2030-01-01",
+      "program_id": "bj-opera",
+      "title_optional": "戏曲欣赏",
+      "notes_optional": "Playable test"
+    },
+    {
+      "date": "2030-01-01",
+      "program_id": "sh-story",
+      "title_optional": "评书连播",
+      "notes_optional": "Playable test"
+    },
+    {
+      "date": "2030-01-01",
+      "program_id": "gd-comedy",
+      "title_optional": "相声小品",
+      "notes_optional": "Playable test"
+    },
+    {
+      "date": "2030-01-01",
+      "program_id": "rthk-drama",
+      "title_optional": "广播剧",
+      "notes_optional": "Playable test"
+    },
+    {
+      "date": "2030-01-01",
+      "program_id": "macau-novel",
+      "title_optional": "有声小说",
+      "notes_optional": "Playable test"
+    },
+    {
+      "date": "2030-01-01",
+      "program_id": "taipei-classic",
+      "title_optional": "经典老歌",
+      "notes_optional": "Playable test"
+    }
+  ],
+  "broadcasts": [
+    {
+      "date": "2026-07-03",
+      "title": "Time Radio Daily Broadcast",
+      "audio_path": "ogg/2026-07-03/daily.ogg",
+      "script": "Good morning. This is Terry on Time Radio in Seoul, KR.\n\nHappy Friday. The weather is clear skies with a light morning breeze and around 22 degrees. A light layer is enough for a comfortable start.\n\nIn positive news, Neighborhood volunteers launched a free breakfast table for early workers. The program started with twelve households and now serves hundreds each week.\n\nToday in history, a major global public library network opened a new community wing. It reminds us that steady civic investment can improve daily life for everyone.\n\nAnd here is your smile of the day: If your to-do list feels long, start with one kind cup of coffee and one small win.\n\nTake your time, and have a warm start to your day.",
+      "source": "daily_generate.py"
+    },
+    {
+      "date": "2026-07-03",
+      "title": "Time Radio Daily Broadcast",
+      "audio_path": "ogg/2026-07-03/daily.ogg",
+      "script": "Good morning. This is Terry on Time Radio in Seoul, KR.\n\nHappy Friday. The weather is partly cloudy and around 21.3 degrees. A light layer is enough for a comfortable start.\n\nIn positive news, Neighborhood volunteers launched a free breakfast table for early workers. The program started with twelve households and now serves hundreds each week.\n\nToday in history, a major global public library network opened a new community wing. It reminds us that steady civic investment can improve daily life for everyone.\n\nAnd here is your smile of the day: If your to-do list feels long, start with one kind cup of coffee and one small win.\n\nTake your time, and have a warm start to your day.",
+      "source": "daily_generate.py"
+    },
+    {
+      "date": "2026-07-03",
+      "title": "Time Radio Daily Broadcast",
+      "audio_path": "ogg/2026-07-03/daily.ogg",
+      "script": "Good morning. This is Terry on Time Radio in Seoul, KR.\n\nHappy Friday. The weather is partly cloudy and around 21.3 degrees. A light layer is enough for a comfortable start.\n\nIn positive news, Neighborhood volunteers launched a free breakfast table for early workers. The program started with twelve households and now serves hundreds each week.\n\nToday in history, a major global public library network opened a new community wing. It reminds us that steady civic investment can improve daily life for everyone.\n\nAnd here is your smile of the day: A kind word can make the whole day feel lighter.\n\nTake your time, and have a warm start to your day.",
+      "source": "daily_generate.py"
+    },
+    {
+      "date": "2026-07-03",
+      "title": "Time Radio Daily Broadcast",
+      "audio_path": "ogg/2026-07-03/daily.ogg",
+      "script": "Good morning. This is Terry on Time Radio in Seoul, KR.\n\nHappy Friday. The weather is partly cloudy and around 21.3 degrees. A light layer is enough for a comfortable start.\n\nIn positive news, Neighborhood volunteers launched a free breakfast table for early workers. The program started with twelve households and now serves hundreds each week.\n\nToday in history, The first artificial satellite image improved weather forecasting. It reminds us that Early images from space helped people understand clouds and storms more clearly, making daily planning safer and gentler..\n\nAnd here is your smile of the day: A kind word can make the whole day feel lighter.\n\nTake your time, and have a warm start to your day.",
+      "source": "daily_generate.py"
+    },
+    {
+      "date": "2026-07-03",
+      "title": "Time Radio Daily Broadcast",
+      "audio_path": "ogg/2026-07-03/daily.ogg",
+      "script": "Good morning. This is Terry on Time Radio in Seoul, KR.\n\nHappy Friday. The weather is partly cloudy and around 21.2 degrees. A light layer is enough for a comfortable start.\n\nIn positive news, Neighbors built a tiny free pantry beside a bus stop. People now leave rice, tea, and notes of encouragement for anyone who might need a little help.\n\nToday in history, The first artificial satellite image improved weather forecasting. It reminds us that Early images from space helped people understand clouds and storms more clearly, making daily planning safer and gentler..\n\nAnd here is your smile of the day: A kind word can make the whole day feel lighter.\n\nTake your time, and have a warm start to your day.",
+      "source": "daily_generate.py"
+    },
+    {
+      "date": "2026-07-03",
+      "title": "Time Radio Daily Broadcast",
+      "audio_path": "ogg/2026-07-03/daily.ogg",
+      "script": "Morning!\n\nIt's really nice to see you.\nI'm Terry.\n\nThe sky over Seoul, KR is partly cloudy this morning, and it's about 21.1 degrees.\nIt feels like an easy start.\n\nHere's something that made me smile.\nA city block turned an empty lot into a tiny evening garden. Lanterns, herbs, and benches now offer nearby residents a simple place to exhale after work.\nIsn't that lovely?\n\nI didn't know this until today.\nThe first artificial satellite image improved weather forecasting.\nI wonder what that first moment felt like.\n\nA kind word can make the whole day feel lighter.\n\nTake good care of yourself.\nI'm glad we started today together.",
+      "source": "daily_generate.py"
+    },
+    {
+      "date": "2026-07-03",
+      "title": "Time Radio Daily Broadcast",
+      "audio_path": "ogg/2026-07-03/daily.ogg",
+      "script": "Morning!\n\nDid you sleep well?\n\nIf you're still waking up, that's okay.\nI'm right here.\n\nThe sky over Seoul is partly cloudy this morning, and it's about 22.8 degrees.\nIt feels like an easy start.\n\nHere's something that made me smile.\nNeighbors opened a free breakfast table near the bus stop. The project began small and quickly became a steady source of practical care.\nIsn't that lovely?\n\nI didn't know this until today.\nAstronomers mapped the night sky with greater precision.\nI wonder what that first moment felt like.\n\nOne caring message can brighten two hearts.\n\nTake good care of yourself.\nI'm glad we started today together.",
+      "source": "daily_generate.py"
+    },
+    {
+      "date": "2026-07-03",
+      "title": "Time Radio Daily Broadcast",
+      "audio_path": "ogg/2026-07-03/daily.ogg",
+      "script": "Morning!\n\nDid you sleep well?\n\nIf you're still waking up, that's okay.\nI'm right here.\n\nThe sky over Seoul is overcast this morning, and it's about 22.5 degrees.\nIt feels like an easy start.\n\nHere's something that made me smile.\nMarket vendors created a pay-it-forward meal board. What started as a trial is now becoming a trusted local routine.\nIsn't that lovely?\n\nI didn't know this until today.\nAstronomers mapped the night sky with greater precision.\nI wonder what that first moment felt like.\n\nYou can choose ease without giving up.\n\nTake good care of yourself.\nI'm glad we started today together.",
+      "source": "daily_generate.py"
+    }
   ]
 }
